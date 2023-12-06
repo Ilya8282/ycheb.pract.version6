@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".bash3"
+            android:exported="false" />
+        <activity
+            android:name=".bashn2"
+            android:exported="false" />
+        <activity
+            android:name=".crossbaw18"
+            android:exported="false" />
+        <activity
+            android:name=".firebow17"
+            android:exported="false" />
+        <activity
+            android:name=".brew16"
+            android:exported="false" />
+        <activity
+            android:name=".yarost15"
+            android:exported="false" />
+        <activity
+            android:name=".magluch14"
+            android:exported="false" />
+        <activity
+            android:name=".hog13"
+            android:exported="false" />
+        <activity
+            android:name=".vozdshar12"
+            android:exported="false" />
+        <activity
+            android:name=".plamen11"
+            android:exported="false" />
+        <activity
+            android:name=".megan10"
+            android:exported="false" />
+        <activity
+            android:name=".knight9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
